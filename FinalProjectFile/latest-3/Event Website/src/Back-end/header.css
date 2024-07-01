@@ -1,0 +1,61 @@
+/* General Styles */
+.navbar {
+    background-color: #101720;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Navigation Links */
+  .nav-link {
+    padding: 0 10px;
+  }
+  
+  /* Login Link */
+  .nav-link.login-link {
+    margin-left: auto;
+  }
+
+  .navbar-toggler {
+    color: white; /* Change the color of the toggler text */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23FF6347' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Change the color of the toggler icon */
+  }
+
+
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      width: 80px; /*Make the logo smaller*/
+      height: auto;
+    }
+  
+    .navbar-toggler {
+      margin-right: 10px; /* Adding margins to the right  */
+    }
+  
+    .navbar-nav {
+      flex-direction: column; /* Stack the nav links vertically on smaller screens */
+      align-items: flex-start; /* Align the nav links to the left */
+    }
+  
+    .nav-link {
+      padding: 0.5rem 0; 
+    }
+  
+    .login-link {
+      margin-left: 0; /* Remove the left margin for login link */
+    }
+  }

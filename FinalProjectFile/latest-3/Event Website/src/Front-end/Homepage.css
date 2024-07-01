@@ -1,0 +1,104 @@
+/* .top-layer{
+    color: white;
+}
+.bg-custom-dark {
+  background-color: #101720;
+} */
+/* .wrapper {
+    margin: 150px auto 0; 
+    max-width: 100%; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .text-box {
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  .text-box h1 {
+    margin-top: 110px;
+    font-size: 60px;
+  }
+  
+  .text-box p {
+    font-size: 20px;
+  }
+  
+  .d-flex {
+    display: flex;
+  } 
+  */
+
+
+
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .hero-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .explore-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .hero-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 767px) {
+    .hero-section {
+      flex-direction: column; /* Stack the content and image vertically on smaller screens */
+      padding: 1rem; /* Reduce the padding for smaller screens */
+    }
+  
+    .hero-content {
+      max-width: 100%; /* Make the content take full width on smaller screens */
+      text-align: center; /* Center the text content */
+      margin-bottom: 1rem; /* Add some spacing between content and image */
+    }
+  
+    .hero-images img {
+      width: 100%; /* Make the image take full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 300px; /* Limit the maximum width of the image */
+    }
+  }
+
+
+  /*-------------------------------------------------------------------------------*/
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Align cards horizontally */
+  }
+  
+  .card {
+    margin: 1rem; /* Add some spacing between cards */
+  }

@@ -1,0 +1,58 @@
+.about-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101720;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 2rem;
+  }
+  .social-icons a {
+    color: #fff;
+  }
+  .social-icons a:hover {
+    color: black
+  }
+  .social-icons svg {
+    margin: 0 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-work {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .content {
+      max-width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .social-icons {
+      padding: 1rem;
+    }
+  }
